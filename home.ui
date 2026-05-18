@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1361</width>
+    <height>701</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#Form{
+background-color: #31a4b4; 
+}</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>110</y>
+     <width>631</width>
+     <height>421</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>templates_c++-removebg-preview.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="employehome">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>110</y>
+     <width>191</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#employehome {
+    width: 50px; /* Set width */
+    height: 50px; /* Set height */
+    border: none; /* Remove border */
+    border-radius: 50%; /* Make it circular */
+    background-color: transparent; /* Set initial background color */
+    padding: 0; /* Remove padding */
+    text-align: center; /* Center text horizontally */
+    line-height: 50px; /* Center text vertically */
+}
+
+#employehome:hover {
+    background-color: #5bab99; /* Set background color on hover */
+}
+
+#employehome:pressed {
+    background-color: #5bab99; /* Set background color when pressed */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>photos/team.png</normaloff>photos/team.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>100</width>
+     <height>100</height>
+    </size>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="patienthome">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>290</y>
+     <width>191</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+     <italic>false</italic>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#patienthome {
+    width: 50px; /* Set width */
+    height: 50px; /* Set height */
+    border: none; /* Remove border */
+    border-radius: 50%; /* Make it circular */
+    background-color: transparent; /* Set initial background color */
+    padding: 0; /* Remove padding */
+    text-align: center; /* Center text horizontally */
+    line-height: 50px; /* Center text vertically */
+}
+
+#patienthome:hover {
+    background-color: #5bab99; /* Set background color on hover */
+}
+
+#patienthome:pressed {
+    background-color: #5bab99; /* Set background color when pressed */
+}
+
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>photos/medical.png</normaloff>photos/medical.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>100</width>
+     <height>100</height>
+    </size>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="reserhome">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>500</y>
+     <width>181</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>6</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#reserhome {
+    width: 50px; /* Set width */
+    height: 50px; /* Set height */
+    border: none; /* Remove border */
+    border-radius: 50%; /* Make it circular */
+    background-color: transparent; /* Set initial background color */
+    padding: 0; /* Remove padding */
+    text-align: center; /* Center text horizontally */
+    line-height: 50px; /* Center text vertically */
+}
+
+#reserhome:hover {
+    background-color: #5bab99; /* Set background color on hover */
+}
+
+#reserhome:pressed {
+    background-color: #5bab99; /* Set background color when pressed */
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>photos/time-management.png</normaloff>photos/time-management.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>100</width>
+     <height>100</height>
+    </size>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="equiphome">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>100</y>
+     <width>201</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>6</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> 
+#equiphome {
+    width: 50px; /* Set width */
+    height: 50px; /* Set height */
+    border: none; /* Remove border */
+    border-radius: 50%; /* Make it circular */
+    background-color: transparent; /* Set initial background color */
+    padding: 0; /* Remove padding */
+    text-align: center; /* Center text horizontally */
+    line-height: 50px; /* Center text vertically */
+}
+
+#equiphome:hover {
+    background-color: #5bab99; /* Set background color on hover */
+}
+
+#equiphome:pressed {
+    background-color: #5bab99; /* Set background color when pressed */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>photos/resistance-band.png</normaloff>photos/resistance-band.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>100</width>
+     <height>100</height>
+    </size>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="traitementhome">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>290</y>
+     <width>201</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>6</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> 
+#traitementhome{
+    width: 50px; /* Set width */
+    height: 50px; /* Set height */
+    border: none; /* Remove border */
+    border-radius: 50%; /* Make it circular */
+    background-color: transparent; /* Set initial background color */
+    padding: 0; /* Remove padding */
+    text-align: center; /* Center text horizontally */
+    line-height: 50px; /* Center text vertically */
+}
+
+#traitementhome:hover {
+    background-color: #5bab99; /* Set background color on hover */
+}
+
+#traitementhome:pressed {
+    background-color: #5bab99; /* Set background color when pressed */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>photos/medical-records.png</normaloff>photos/medical-records.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>100</width>
+     <height>100</height>
+    </size>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="paiementhome">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>490</y>
+     <width>221</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>6</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> 
+#paiementhome{
+    width: 50px; /* Set width */
+    height: 50px; /* Set height */
+    border: none; /* Remove border */
+    border-radius: 50%; /* Make it circular */
+    background-color: transparent; /* Set initial background color */
+    padding: 0; /* Remove padding */
+    text-align: center; /* Center text horizontally */
+    line-height: 50px; /* Center text vertically */
+}
+
+#paiementhome:hover {
+    background-color: #5bab99; /* Set background color on hover */
+}
+
+#paiementhome:pressed {
+    background-color: #5bab99; /* Set background color when pressed */
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>photos/online-banking.png</normaloff>photos/online-banking.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>105</width>
+     <height>105</height>
+    </size>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="tablelabel">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>30</y>
+     <width>941</width>
+     <height>631</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#tablelabel {
+    background-color: #f6f6f6;
+    border: 2px solid #31a4b4;
+    border-radius: 10px; /* Adjust the border radius as needed */
+    padding: 5px; /* Add padding for better appearance */
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>tablelabel</zorder>
+  <zorder>label</zorder>
+  <zorder>employehome</zorder>
+  <zorder>patienthome</zorder>
+  <zorder>reserhome</zorder>
+  <zorder>equiphome</zorder>
+  <zorder>traitementhome</zorder>
+  <zorder>paiementhome</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

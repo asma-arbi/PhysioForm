@@ -1,0 +1,90 @@
+#QPushButton{
+    background-color: #333333;
+    border: 2px solid #1e1e1e;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#QPushButton:hover{
+    background-color: #5a5a5a;
+}
+
+#QLabel {
+    background-color: #333333;
+    border: 2px solid #1e1e1e;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#tableView_malek {
+    background-color: #333333;
+    border: 2px solid #1e1e1e;
+    border-radius: 10px;
+}
+
+#tableView_malek QHeaderView::section {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #333333;
+}
+
+#tableView_malek QTableCornerButton::section {
+    background-color: #1e1e1e;
+    border: 1px solid #333333;
+}
+
+#tableView_malek QTableView {
+    alternate-background-color: #555555;
+}
+
+#tableView_malek QTableView:selected {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+#tableView_malek QLineEdit {
+    border: 1px solid #333333;
+    border-radius: 5px;
+    padding: 2px;
+    selection-background-color: #333333;
+}
+
+#tableView_malek QTableView::indicator:checked {
+    background-color: #1e1e1e;
+    border: 1px solid #333333;
+}
+
+#tableView_malek QTableView::indicator:unchecked {
+    background-color: #333333;
+    border: 1px solid #333333;
+}
+
+#listWidget{
+    background-color: #333333;
+    border: 2px solid #1e1e1e;
+    border-radius: 10px;
+    padding: 5px;
+    selection-background-color: #5a5a5a;
+    alternate-background-color: #444444;
+}
+
+#QComboBox {
+    background-color: #333333;
+    border: 2px solid #1e1e1e;
+    padding: 7px;
+    selection-background-color: #1e1e1e;
+    border-radius: 10px;
+}
+
+#QComboBox::down-arrow {
+    width: 0; /* Remove the default down arrow */
+}
+
+#QComboBox QAbstractItemView {
+    selection-background-color: #1e1e1e; /* Set the background color for selected items */
+}
+
+#QComboBox QLabel[style="QComboBox::down-arrow"] {
+    qproperty-alignment: AlignCenter;
+    color: #1e1e1e; /* Set the color of the custom down arrow */
+}

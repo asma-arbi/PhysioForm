@@ -1,0 +1,9 @@
+2024-04-24 22:57:51 - Modification du Patient   de ID 90
+2024-04-24 23:00:28 - Modification du Patient DE IDPAIEMENT =  de ID 22
+2024-04-24 23:00:39 - ASC 
+2024-04-30 21:02:20 - Ajout du Patient   de ID 3
+2024-04-30 21:02:34 - Supression du Patient DE IDPAIEMENT =  de ID 3
+2024-05-02 02:10:49 - Supression du Patient DE IDPAIEMENT =  de ID 22
+2024-05-02 02:10:56 - Supression du Patient DE IDPAIEMENT =  de ID 90
+2024-05-02 02:11:05 - Supression du Patient DE IDPAIEMENT =  de ID 4445
+2024-05-02 02:11:15 - Supression du Patient DE IDPAIEMENT =  de ID 69420
